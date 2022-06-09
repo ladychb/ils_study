@@ -1,0 +1,7 @@
+.idea
+
+data/extracted_content_ml-latest
+data/all_similarities.csv
+data/similarity_mpg.csv
+/data/similarity_mp2g.csv
+/data/movieLens/
