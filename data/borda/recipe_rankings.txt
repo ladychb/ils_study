@@ -1,0 +1,200 @@
+cuisine	image	ingredients	title				
+cuisine	ingredients	title	nutrients	duration	image	reviews	instructions
+cuisine	ingredients	nutrients	instructions	image	duration		
+cuisine							
+cuisine	ingredients	duration	instructions				
+cuisine	image	title					
+cuisine	ingredients						
+cuisine	instructions	ingredients	reviews	title	duration	nutrients	image
+cuisine	ingredients	title	image	nutrients	duration	instructions	reviews
+cuisine	ingredients	image	title				
+cuisine	ingredients	image	title				
+cuisine	ingredients	nutrients	image	instructions	duration	title	reviews
+cuisine	title	ingredients	image				
+cuisine	ingredients	title	image	instructions	nutrients	duration	reviews
+cuisine	ingredients	nutrients					
+cuisine	image	ingredients	instructions	nutrients			
+cuisine	ingredients	title	image	nutrients	reviews	instructions	duration
+cuisine	ingredients	instructions	image	duration			
+cuisine	title	image	ingredients	nutrients	reviews	duration	instructions
+cuisine	ingredients	title	image				
+cuisine	ingredients	image	title				
+cuisine	ingredients	image	title	reviews	nutrients	instructions	duration
+cuisine	ingredients	image	nutrients				
+cuisine	ingredients	title	instructions	image	duration	nutrients	reviews
+cuisine	ingredients	instructions	image	duration	title	nutrients	reviews
+cuisine	title	ingredients	image	nutrients	reviews	duration	instructions
+cuisine	ingredients	nutrients					
+cuisine	ingredients						
+cuisine	ingredients	image					
+cuisine	ingredients	nutrients	image	reviews	duration	instructions	title
+cuisine	ingredients						
+cuisine	ingredients	image	title	nutrients	duration	instructions	
+cuisine	ingredients	image					
+cuisine	image	ingredients	title	nutrients	duration	reviews	instructions
+cuisine	ingredients						
+cuisine	ingredients	instructions					
+cuisine	nutrients	image	title				
+cuisine	title	image	ingredients	duration	nutrients	instructions	
+cuisine	ingredients	title	instructions				
+duration	nutrients	ingredients	title	cuisine	instructions	image	reviews
+image	cuisine	reviews	ingredients	instructions	duration	title	nutrients
+image	ingredients	instructions					
+image							
+image							
+image	ingredients	title	nutrients	cuisine	duration	instructions	reviews
+image							
+image							
+image	cuisine	ingredients	title	nutrients	instructions	reviews	duration
+image							
+image	ingredients	title	reviews	instructions	duration	cuisine	nutrients
+image	ingredients	nutrients	title	duration	reviews	cuisine	instructions
+image	ingredients	title	instructions	cuisine	duration	reviews	nutrients
+image	ingredients	cuisine					
+image							
+image	title	cuisine	ingredients				
+image	cuisine	title	ingredients	nutrients	instructions	duration	reviews
+image	nutrients	ingredients	cuisine				
+image							
+image	ingredients	nutrients	title	cuisine	duration	reviews	instructions
+image	instructions	nutrients	reviews	title	duration	cuisine	ingredients
+image	nutrients	duration	reviews				
+image	reviews	duration	ingredients				
+image							
+image	duration	cuisine	title	ingredients	instructions	reviews	
+image	title	ingredients	nutrients	instructions	duration	cuisine	reviews
+image	ingredients	cuisine	nutrients	title			
+image							
+image	ingredients	cuisine					
+image	title	nutrients	ingredients	instructions	duration	reviews	cuisine
+image	ingredients	cuisine	title	instructions	nutrients	reviews	duration
+ingredients							
+ingredients							
+ingredients	cuisine	instructions	image				
+ingredients	title	cuisine	nutrients	duration	instructions	reviews	image
+ingredients	cuisine						
+ingredients	title	reviews	image	nutrients	instructions	duration	cuisine
+ingredients	cuisine	image	title	nutrients	instructions	duration	reviews
+ingredients	cuisine						
+ingredients	image	nutrients					
+ingredients	instructions	image	reviews	cuisine	duration	title	nutrients
+ingredients							
+ingredients							
+ingredients	cuisine	instructions	duration				
+ingredients	nutrients	instructions	image				
+ingredients	cuisine						
+ingredients	cuisine	nutrients	image				
+ingredients	cuisine	image	duration				
+ingredients	instructions	reviews	image				
+ingredients							
+ingredients							
+ingredients	image	instructions	duration	reviews			
+ingredients	cuisine						
+ingredients							
+ingredients	image	title	instructions				
+ingredients							
+ingredients	cuisine	image	title	nutrients	instructions	duration	reviews
+ingredients	nutrients	duration					
+ingredients	cuisine						
+ingredients	cuisine	image					
+ingredients							
+ingredients							
+ingredients							
+ingredients							
+ingredients							
+ingredients	cuisine	title					
+ingredients							
+ingredients	cuisine	nutrients	duration	instructions	reviews	title	image
+ingredients	cuisine	instructions	title	duration	nutrients	image	reviews
+ingredients	cuisine	image	duration	reviews	nutrients	title	instructions
+ingredients	cuisine	nutrients	instructions	duration	image	title	reviews
+ingredients	title	cuisine					
+ingredients	cuisine	image	title				
+ingredients	cuisine	image					
+ingredients	cuisine	nutrients	duration	title	instructions	image	reviews
+ingredients	title	cuisine	instructions				
+ingredients	title	nutrients	image	cuisine	duration	reviews	instructions
+ingredients	instructions	duration	cuisine	nutrients	image	reviews	title
+ingredients	instructions	cuisine	title	reviews	image	duration	nutrients
+ingredients	image	cuisine	duration	title			
+ingredients	cuisine	image	title				
+ingredients	cuisine	nutrients	instructions	duration	title	image	reviews
+ingredients							
+ingredients	instructions	nutrients	cuisine	title			
+ingredients	cuisine	title	image	nutrients	duration	instructions	reviews
+ingredients	cuisine	title					
+ingredients	duration	cuisine	instructions	nutrients	title	image	reviews
+ingredients	cuisine	image	title				
+ingredients	image	instructions	cuisine	reviews	duration	title	nutrients
+ingredients							
+ingredients	nutrients	cuisine	duration				
+ingredients	cuisine	instructions	duration	image	nutrients	title	reviews
+ingredients	cuisine	title	nutrients	image	reviews	duration	instructions
+ingredients	cuisine	image	title				
+ingredients	nutrients	title	image	cuisine	duration	instructions	reviews
+ingredients	image	cuisine	title	nutrients			
+ingredients	nutrients						
+ingredients	nutrients	cuisine	duration	image	reviews	title	instructions
+ingredients							
+ingredients	title	cuisine	image	instructions	nutrients	duration	reviews
+ingredients	cuisine	title	nutrients	image	duration	reviews	instructions
+instructions	title	image	nutrients	ingredients	cuisine	duration	reviews
+instructions							
+instructions	ingredients	title	reviews	image	nutrients	cuisine	duration
+instructions	ingredients	duration	image	nutrients	title	cuisine	reviews
+instructions	duration	reviews	image	title	nutrients	ingredients	cuisine
+instructions	ingredients	image	duration	nutrients	reviews	cuisine	title
+instructions	image	title					
+nutrients							
+nutrients	cuisine	instructions	duration	ingredients	reviews	image	title
+nutrients	ingredients	duration	title	reviews	instructions	image	cuisine
+nutrients	reviews	title	duration	image	cuisine	instructions	ingredients
+nutrients	duration	ingredients					
+nutrients	ingredients	duration	image	instructions	cuisine		
+nutrients	image	cuisine	title	reviews	instructions	duration	ingredients
+nutrients	title	cuisine	ingredients	instructions	duration	reviews	image
+nutrients	image	cuisine					
+nutrients	ingredients	cuisine	duration				
+nutrients	instructions	cuisine					
+nutrients	image	cuisine	reviews	instructions	ingredients	duration	title
+nutrients							
+nutrients							
+nutrients	ingredients	image	cuisine	reviews	duration	instructions	title
+nutrients	title	cuisine	ingredients	instructions	duration	reviews	image
+nutrients	ingredients	image	reviews	duration			
+nutrients	image	duration	reviews	ingredients	cuisine	instructions	title
+nutrients							
+nutrients	ingredients	instructions	duration	cuisine	reviews		
+nutrients							
+reviews	duration	ingredients	nutrients	image	title	cuisine	instructions
+reviews	nutrients	image	title	instructions	ingredients	duration	cuisine
+title							
+title	instructions	nutrients	image	ingredients	reviews	duration	cuisine
+title	instructions	reviews	image	cuisine	duration	ingredients	nutrients
+title	image	nutrients					
+title	image	instructions	ingredients	nutrients	duration	reviews	cuisine
+title	cuisine	nutrients	image	ingredients	instructions	duration	reviews
+title	ingredients	nutrients	image	duration			
+title	instructions	image	cuisine	reviews	ingredients	duration	nutrients
+title	image	duration					
+title	image	duration	ingredients reviews	cuisine	instructions	nutrients
+title	instructions	ingredients	nutrients	image	duration	reviews	
+title	nutrients	duration	reviews	instructions	image	cuisine	ingredients
+title	image	reviews	instructions	cuisine	duration	ingredients	nutrients
+title	instructions	ingredients					
+title	image	cuisine	reviews	ingredients	instructions	nutrients	duration
+title	cuisine	ingredients					
+title	image	instructions	nutrients	duration	reviews	ingredients	cuisine
+title	ingredients						
+title	image	nutrients	ingredients	reviews	instructions	cuisine	duration
+title	duration						
+title	image	cuisine	ingredients	duration	reviews	nutrients	instructions
+title	image	instructions	duration	ingredients	nutrients	reviews	cuisine
+title							
+title							
+title	image	ingredients					
+title	instructions	ingredients	nutrients	duration	image	reviews	
+title	nutrients						
+title	ingredients	nutrients	reviews	duration	image	instructions	cuisine
+title							
+title	image	ingredients	instructions	duration			

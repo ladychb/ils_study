@@ -1,0 +1,223 @@
+genre	actors	plot	year	title	runtime	image
+genre	actors	plot	title	year	runtime	image
+genre	actors	plot	title	year	image	runtime
+actors	genre	runtime	plot
+actors
+actors	runtime	year	title
+genre	actors	year	title	plot	image	runtime
+genre	actors	title	image	plot	runtime	year
+genre	actors	title	image	year	runtime	plot
+actors
+genre	actors	plot
+genre	image	plot
+genre	image	plot	actors	title	year	runtime
+genre	plot	title
+plot
+genre	plot	actors	title	image	runtime	year
+genre	plot
+actors	title	year	genre	image	plot	runtime
+actors	genre	title	image	plot	runtime	year
+genre	plot	image	year	runtime	actors	title
+genre	plot
+genre	plot
+plot	genre	title	actors	year	image	runtime
+genre	plot	actors	title	image	year	runtime
+title	genre	image	year	actors	runtime	plot
+genre	plot
+actors
+title	image	actors	genre	runtime	year	plot
+genre	plot	actors	runtime	year	title	image
+genre	plot	actors	title	runtime	image	year
+actors	image
+genre	plot	actors	title	year	image	runtime
+genre	plot	actors	year	image	runtime	title
+actors	title	runtime
+actors
+genre	plot	actors	runtime	year	title	image
+genre	plot
+genre	plot	year	actors
+actors
+genre	plot	actors	title	year
+genre	plot	actors	year	title	image	runtime
+actors
+genre	plot	image	year	title	runtime	actors
+genre	plot	year	actors
+genre	plot	actors
+actors	plot	genre	year	title	runtime	image
+plot	image	title	genre	actors	runtime	year
+image	runtime	year	title	plot	genre	actors
+genre	plot	title	image	runtime	year	actors
+genre	plot	actors	title
+actors
+genre	plot
+genre	plot	actors	image	title	runtime	year
+genre	plot
+genre	plot	image	actors
+genre	plot
+genre	plot	image	title	actors	year	runtime
+genre	plot	title	image	actors	runtime	year
+genre	plot	actors
+genre	plot	image	actors	title	runtime	year
+plot	title	image	genre	actors
+genre	plot
+year
+actors
+genre	plot	title	actors	year	image	runtime
+genre	plot	year
+image	genre	plot	year
+genre	plot
+genre	plot
+genre	plot	actors	title	image
+genre	plot	image
+actors	genre	plot	runtime	year	title	image
+genre	plot	actors	image
+genre	plot	actors	year	runtime	title	image
+genre	plot	year
+image
+title	actors	genre	plot	image	year	runtime
+genre	plot
+genre	plot	actors
+plot	genre	actors	year	title	runtime	image
+plot	genre	actors	title	runtime	year	image
+genre	plot	runtime	actors	title	year	image
+genre	plot	year	actors
+actors	image	genre	title	runtime	year	plot
+plot	genre
+plot
+genre	plot	title	actors
+genre	plot	title	image	year
+actors	genre	runtime	image	year	title	plot
+actors	runtime	year	title	genre	image
+genre	plot	actors	title	image	year	runtime
+genre	plot	actors	image	runtime	title	year
+plot	genre	image	title	actors	year	runtime
+genre	plot	actors	title	image	runtime	year
+genre	plot	title	actors
+genre	plot	actors	image	year	runtime	title
+genre	plot
+genre	plot
+genre	plot	year
+genre	plot
+genre	plot
+genre	plot	image
+plot	genre	year	actors	title	runtime	image
+genre	plot
+genre	plot	year
+actors	plot	genre	title	image	year	runtime
+genre	plot	actors	image	title	year	runtime
+genre	plot	image
+genre	plot
+genre	plot	actors	runtime	year	title	image
+actors	title	plot	image	year	genre	runtime
+image
+genre	plot
+genre	plot	year	runtime	title	actors	image
+title
+genre	plot	year
+genre	plot
+genre	plot	title	image
+genre	title	plot	actors	image	runtime	year
+actors	image	title	genre	year	runtime	plot
+plot	genre	image	year	actors	title	runtime
+genre	title	actors	year	plot	image	runtime
+genre	title	image	runtime	plot	year	actors
+plot
+title
+genre	title	image	actors	year	runtime	plot
+actors
+genre	title	image	plot	actors	runtime	year
+year
+actors	title	year	image	runtime	plot	genre
+genre	title	actors	plot	runtime	image	year
+genre	title	actors	plot	image	year	runtime
+title	genre	plot	actors	year	image	runtime
+genre	year	plot
+actors	title	image	genre	plot	runtime	year
+genre	year	plot	actors
+genre	year	plot	actors
+genre	year	title	plot	runtime	image	actors
+genre	year
+genre	year	actors	title	plot	image	runtime
+genre	year	image	title	plot
+genre
+genre
+genre
+genre
+title	actors	image	genre	plot	runtime	year
+actors
+genre
+genre
+title	actors	image	year	genre	runtime	plot
+genre
+genre
+genre
+genre
+actors	genre	plot	image	title	year	runtime
+actors
+plot	genre	actors	title	year	image	runtime
+actors	title	genre	image	year	plot	runtime
+genre
+genre
+title
+genre
+genre
+genre
+genre
+genre
+image
+genre
+plot	genre
+genre
+title	actors	year	genre	plot	runtime	image
+actors	title	image	runtime	genre	plot	year
+genre
+actors
+actors
+plot	genre
+genre
+actors
+actors	plot	image	title	genre	runtime	year
+actors	image	title	plot	runtime	genre	year
+title
+genre
+plot	genre	year
+genre
+title
+title
+genre
+genre
+title	runtime	year	actors	genre	image
+genre
+genre
+genre
+genre
+title	actors	genre	plot	image	runtime	year
+genre
+genre
+title	actors	genre	image	runtime	plot	year
+actors
+image	title	year	genre	actors	runtime	plot
+title	actors	image
+image
+genre
+actors
+genre
+plot	actors	title	year	runtime	genre	image
+actors	plot	genre	title	image	runtime	year
+genre
+actors	title	image	genre	year	runtime	plot
+plot	genre	title	image	actors	year	runtime
+genre
+genre
+actors
+plot	actors	genre	year	runtime	title	image
+genre
+plot	image	genre
+title	year	runtime	actors	genre	plot	image
+runtime	year	plot	actors	image	title	genre
+genre
+genre
+genre
+genre
+title
+actors	title	genre	plot	image	runtime
