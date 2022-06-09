@@ -19,7 +19,7 @@ Folder *data/movieDiversity* encompasses the following files:
 - *calculatedSimilarities.csv*: Final file with all similarities for all the movie pairs.
 - *lists_ID.csv*: Contains all necessary IDs of movies that are used in the list.
 - *movies.dat*: Main file providing all meta-data for movies.
-- *ratings.csv/.dat*: Main file(s) containing all rating events.
+- *ratings.dat*: Main file(s) containing all rating events.
 - *topMovie_ID.csv*: Contains the IDs of only the top movies.
 - *topUsers.csv*: Contains the users with the highest number of ratings.
 - *users.dat*: Main file containing all user-data.
@@ -49,6 +49,8 @@ Project setup
 Fill data folder
 ------
 The folder 'data' needs to be filled with the **extracted_content_ml_latest** folder. This is a folder containing a set of jsons with movies information. Each file should be called **\<movieId\>.json**
+Additionally, the **ratings.csv** from the MovieLens dataset needs to be downloaded and put into the 'movieDiversity' folder. (Source: https://grouplens.org/datasets/movielens/25m)
+Also for the 'recipeDiversity' folder **raw-data_interaction.csv** and **raw-data_recipe.csv** need to be downloaded and added. (Source: https://www.kaggle.com/datasets/elisaxxygao/foodrecsysv1)
 
 Move study-data to directory
 ------
