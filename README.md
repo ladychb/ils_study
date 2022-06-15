@@ -40,8 +40,8 @@ Inside the folder *data/recipeDiversity* there are the following files:
 
 *data/borda* also contains the data split domain for the use with **borda.py**.
  
- Finally, the collected data for the different study-phases can be found in the folder **data/study-data**.
- *Note:* This data is also used by the R scripts. 
+ Finally, the collected data for the different study phases and additional analysis can be found in the folder **data/study-data**.
+ *Note:* **all_data.xlsx** is also used by the R scripts. 
  
  We provide the R scripts to our analysis in the folder **R code/**.
  These calculations were done in R Studio but should also run in any new R IDE.
