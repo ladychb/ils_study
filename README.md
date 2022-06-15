@@ -1,5 +1,7 @@
 Abstract
 =======
+This is the supplemental material for the submission "Intra-List Similarity and Human Diversity Perceptions of Recommendations: The Details Matter". 
+
 Given a dataset of movies or recipes we calculate the similarity in each of these domains and measure the corresponding ILS of all items in a list.
 These lists can be created through SVD (latent-item-vectors) or manually picked by users. 
 Furthermore, we provide all scripts for the analysis that is conducted in our paper, so they can be executed and tested.
