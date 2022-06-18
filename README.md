@@ -68,8 +68,10 @@ The content of study-data needs to be moved to the working directory of the R ID
 Setup completed
 ------
 
-Generate ILS and pairwise similarities
+Running the code
 ======
+Generate ILS and pairwise similarities
+------
 Once the setup is finished, you can run the file **__main__.py**
 
 Based on the domain that you want to investigate you can uncomment/comment the sections as needed.
@@ -91,16 +93,16 @@ If you want to calculate the ILS in the recipe domain for another list (not insi
 - Rerun **__main__.py** with lda uncommented
 
 R calculations
-=====
+------
 To run the R calculations open the **analysis.R** file in the R IDE of your choice.
 All calculations work with the provided files in **study-data/** and sufficient comments and further instructions are provided in the R script.
 
 Calculate Borda-count
-=====
+------
 Additionally, it is possible to use **borda.py** to calculate the Borda-count as we implemented it.
 Simply run **borda.py** and change the corresponding data in the file for any of the cleaned files in data/borda/.
 
 Mixed-model calculations
-=====
+------
 Furthermore, we added the Python implementation as well as the R implementation.
 The R file is called **mixed effect regression.R** and outputs the same results as **mixedModel.py**
