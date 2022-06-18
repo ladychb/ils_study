@@ -6,6 +6,13 @@ Given a dataset of movies or recipes we calculate the similarity in each of thes
 These lists can be created through SVD (latent-item-vectors) or manually picked by users. 
 Furthermore, we provide all scripts for the analysis that is conducted in our paper, so they can be executed and tested.
 
+Additional analysis
+=======
+In addition to the reported analyses in the paper, there are additional analyses on the recipe domain in the **analysis** folder.
+Specifically, the file **pairwise_wilcoxon_recipe.xlsx** contains all remaining post-hoc tests regarding the perceived criteria (i.e., diversity, variety, and similarity).
+
+Data description
+=======
 All scripts for the calculation of ILS can be found in the **src/** folder.
 These are as follows:
 - **movieAnalysis.py**: Precalculations for the similarity of the movie dataset. 
@@ -40,7 +47,7 @@ Inside the folder *data/recipeDiversity* there are the following files:
 
 *data/borda* also contains the data split domain for the use with **borda.py**.
  
- Finally, the collected data for the different study phases and additional analysis can be found in the folder **data/study-data**.
+ Finally, the collected data for the different study phases can be found in the folder **data/study-data**.
  *Note:* **all_data.xlsx** is also used by the R scripts. 
  
  We provide the R scripts to our analysis in the folder **R code/**.
