@@ -68,7 +68,9 @@ def svdCalc():
     # For every column we calculate the similarity values
     for col in range(0, vh.shape[1]):
         # We use a random participant out of the top
-        similarity = cosine_similarity(vh[:, randrange(300)], vh[:, col])
+        # Use specific number of latent vectors here (optimal k = 14)
+        k = 14
+        similarity = cosine_similarity(vh[:k, randrange(300)], vh[:, col])
         similarity_df = similarity_df.append({'col': col, 'similarity': similarity}, ignore_index=True)
 
     # Sort by similarity (Similar neighbors)
