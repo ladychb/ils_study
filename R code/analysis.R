@@ -1,17 +1,16 @@
 # Diversity calculations
-# -----------------------------------------------------------------------------------------------
 
 # Read necessary data from file
 library(tidyverse)
 library(readxl)
-
-# Read dataset from the local file with the study that you want to investigate
-# Save the Excel file as "all" 
-# all 
+Diversity_Study_Analysis_Work <- read_excel("C:/Users/mjesse/PycharmProjects/DiversityStudyWebApplication/evaluation/Analysis/Diversity Study - Analysis_Work.xlsx", 
+                                             sheet = "Treatments", n_max = 694)
+all <- Diversity_Study_Analysis_Work
 
 uhigh <- filter(all, all$treatment == "Recommendation-based (high-ILS)")
 ulow <- filter(all, all$treatment == "Recommendation-based (low-ILS)")
 coll <- filter(all, all$treatment == "Sequels")
+# coll <- filter(all, all$treatment == "Collection")
 
 umin <- filter(all, all$treatment == "Recommendation-based (mid-ILS minimize similarity of neighbors)")
 umax <- filter(all, all$treatment == "Recommendation-based (mid-ILS maximize similarity of neighbors)")
@@ -29,8 +28,8 @@ kruskal.test(all$easiness~all$treatment)
 kruskal.test(all$confidence~all$treatment)
 
 # Decision time T-test
-# -----------------------------------------------------------------------------------------------
 # ILS difference
+
 t.test(ubas$logtime~ubas$treatment, var.equal = TRUE, alternative = "two.sided")
 
 # Post-hoc TukeyHSD for decision time
@@ -38,17 +37,17 @@ all %>%
   group_by(all$treatment) %>%
   summarise(mean = mean(logtime), sd = sd(logtime), n = n())
 
-model <- aov(firstChoice$logtime ~ firstChoice$treatment, data=firstChoice)
-TukeyHSD(model, conf.level=.95)
 
 # Post-hoc analysis (only on significant results)
-pairwise.wilcox.test(all$diversity,all$treatment, p.adjust="bonferroni")
+pairwise.wilcox.test(all$diversity, all$treatment, p.adjust="bonferroni")
 
 # Analysis of comparison to user-based (mid-ILS)
-# -----------------------------------------------------------------------------------------------
-comparison_all <- # Read the file with the corresponding study
+Diversity_Study_Analysis_Work <- read_excel("C:/Users/mjesse/PycharmProjects/DiversityStudyWebApplication/evaluation/Analysis/Diversity Study - Analysis_Work.xlsx", 
+                                               sheet = "Data Comparison", n_max = 234)
 
+comparison_all <- Diversity_Study_Analysis_Work
 # Analysis for movies
+
 c_avatar <- filter(comparison_all, comparison_all$`comparison movie 1`=='Avatar')
 c_inception <- filter(comparison_all, comparison_all$`comparison movie 1`=='Inception')
 c_avengers <- filter(comparison_all, comparison_all$`comparison movie 1`=='The Avengers')
@@ -88,22 +87,16 @@ wilcox.test(c_banana.test$'comparison similarity'~c_banana.test$group, exact = F
 wilcox.test(c_ham.test$'comparison similarity'~c_ham.test$group, exact = FALSE, correct = FALSE, conf.int = FALSE)
 wilcox.test(c_pancakes.test$'comparison similarity'~c_pancakes.test$group, exact = FALSE, correct = FALSE, conf.int = FALSE)
 
+
 # Analysis of Cronbachs Alpha
-# -----------------------------------------------------------------------------------------------
 alpha(subset(Diversity_Study_Analysis_Work, select = c(diversity, variety, similarity)), keys = c("similarity"))
 alpha(subset(Analysis_Recipe, select = c(diversity, variety, similarity)), keys = c("similarity"))
 alpha(subset(ILS_Study_Movie_and_Recipe, select = c(diversity, variety, similarity)), keys = c("similarity"))
 
 # Pearson Correlation
-# -----------------------------------------------------------------------------------------------
 spearman.sel <- cor.test(all_user$selection, all_user$ILS, method = "spearman")
 spearman.div <- cor.test(all_user$diversity, all_user$ILS, method = "spearman")
 spearman.var <- cor.test(all_user$variety, all_user$ILS, method = "spearman")
 spearman.sim <- cor.test(all_user$similarity, all_user$ILS, method = "spearman")
 spearman.eas <- cor.test(all_user$easiness, all_user$ILS, method = "spearman")
 spearman.con <- cor.test(all_user$confidence, all_user$ILS, method = "spearman")
-
-# Boxplot of variables (optional)
-# -----------------------------------------------------------------------------------------------
-par(mar=c(15,5,2,1))
-ggplot(all, aes(confidence, treatment1)) + geom_boxplot() + theme(axis.text.x = element_text(angle = 45, hjust = 1))
