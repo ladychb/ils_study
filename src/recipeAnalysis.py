@@ -4,6 +4,7 @@ from random import randrange
 import numpy as np
 import pandas as pd
 from numpy.linalg import svd
+from surprise.model_selection import GridSearchCV
 from scipy.spatial.distance import cosine, hamming, euclidean
 from sklearn.preprocessing import normalize
 
@@ -296,7 +297,7 @@ def svd_recipe():
 
 
     """
-    (Optional) Calculates pecific similarity between items
+    (Optional) Calculates specific similarity between items
     """
 
     #nutrition_ar, topN_ar = svd(56927, ['similarity'], 6)
@@ -328,3 +329,10 @@ def text_cleaning(cols):
 
 def cosine_similarity(v, u):
     return (v @ u) / (np.linalg.norm(v) * np.linalg.norm(u))
+
+def tuningHP(svd):
+    """
+    (Optional) Check for optimal amount of latent factors
+    """
+    param_grid = {'n_factors': [10], 'n_epochs': [20], 'lr_all': [0.005], 'reg_all': [0.02]}
+    gs = GridSearchCV(svd, param_grid, measures=['rmse'], cv=3)

@@ -3,6 +3,7 @@ import string
 from typing import List, Optional
 import numpy as np
 import pandas as pd
+from numpy.linalg import svd
 from random import randrange
 from nltk.corpus import stopwords
 from pandas import DataFrame, Series
@@ -20,7 +21,7 @@ Cleans list of unneccesary columns
         topRating (int): Cut-off point for ratings considered for dataset
     Returns:
         selectedUsers (csv): New dataset with only top-users considered 
-'''
+''' 
 def cleanInteraction():
     # Reduce the interactions to only the top N users (at least 500 ratings)
     ratings = pd.io.parsers.read_csv('data/movieDiversity/ratings.csv', skiprows=1, nrows=1000000,
@@ -216,3 +217,11 @@ def get_movie_from_json_folder(movie_id: int, path: str) -> DataFrame:
 
 def cosine_similarity(v, u):
     return (v @ u) / (np.linalg.norm(v) * np.linalg.norm(u))
+
+
+def tuningHP(svd):
+    """
+    (Optional) Check for optimal amount of latent factors
+    """
+    param_grid = {'n_factors': [10], 'n_epochs': [20], 'lr_all': [0.005], 'reg_all': [0.02]}
+    gs = GridSearchCV(svd, param_grid, measures=['rmse'], cv=3)
