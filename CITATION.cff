@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: If you use this code, please cite the article from preferred-citation.
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Jesse
+      given-names: Mathias
+      orcid: "https://orcid.org/0000-0001-6018-2780" 
+    - family-names: Bauer
+      given-names: Christine
+      orcid: "https://orcid.org/0000-0001-5724-1137"
+    - family-names: Jannach
+      given-names: Dietmar
+      orcid:"https://orcid.org/0000-0002-4698-8507"
+  title: 'Intra-list similarity and human diversity perceptions of recommendations: the details matter'
+  doi: 10.1007/s11257-022-09351-w
+  journal: "User Modeling and User-Adapted Interaction"
+  start: 769
+  end: 802
+  issue: 33
+  volume: 4
+  year: 2022
