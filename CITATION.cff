@@ -3,6 +3,7 @@ message: >-
   If you use this code, please cite the article from
   preferred-citation.authors:
 type: software
+authors:
   - family-names: Jesse
     given-names: Mathias
     orcid: 'https://orcid.org/0000-0001-6018-2780'
